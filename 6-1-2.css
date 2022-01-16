@@ -6,9 +6,9 @@
 .slider {
     position:relative;
   z-index: 1;
-  
+
   height: 100vh;
-/*　背景画像設定　*/
+}
 
 .slider-item01 {
   background-image: url(./photo1.jpeg);
@@ -46,12 +46,12 @@
     width: 25px;
 }
 
-.slick-prev {/*戻る矢印の位置と形状*/
+.slick-prev {
     left:2.5%;
     transform: rotate(-135deg);
 }
 
-.slick-next {/*次へ矢印の位置と形状*/
+.slick-next {
     right:2.5%;
     transform: rotate(45deg);
 }
@@ -121,11 +121,13 @@ h1{
 
 /* ナビゲーションメニューの装飾 */
 .main-nav {
+  /* 横に並べる */
   display: flex;
   font-size: 3.25rem;
   text-transform: uppercase;
   margin-top: 34px;
   margin-right: 24px;
+
   list-style: none;
 }
 .main-nav li {
@@ -140,7 +142,9 @@ h1{
 }
 
 .page-header {
+
   display: flex;
+
   justify-content: space-between;
 }
 
@@ -160,6 +164,7 @@ width: :100%;
   text-align: center;
   color: #fff;
 } */
+
 .section-title{
   margin-top: 50px;
 text-align: center;
@@ -385,12 +390,11 @@ figure.cp_caption figcaption {
 padding-bottom: .5em;
 padding-left: .5em;
 margin-bottom: 2em;
-background-color: #b7efdf;/
+background-color: #b7efdf;
   box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
 /* border-bottom: 5px solid #395049;
-color: #334842;
+color: #334842;/* フォント色 */
 }
-	
 a.btn--orange {
   color: #fff;
   background-color: #eb6100;
@@ -409,7 +413,6 @@ a.btn--shadow {
 .recruit-btn{
   margin:30px 55em 0 100px;
 }
-	
 .section-title-interview{
   font-size: 50px;
   text-align: center;
@@ -486,7 +489,6 @@ a.btn--shadow {
   display: flex;
   margin-top: 40px;
 }
-	
 #footer .navi {
   /* margin: 0; */
   padding: 0;
@@ -494,13 +496,11 @@ a.btn--shadow {
   margin: 0px auto;
     margin-left: 61em;
 }
-	
 #footer .navi li {
   display: inline-block;
   margin: 0 20px 0 0;
   padding: 0;
 }
-	
 #footer .navi li:first-child {
   margin-left: 0;
 }
@@ -595,3 +595,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* .kaisai p{
+  font-size: 100px;
+} */
