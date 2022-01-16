@@ -11,7 +11,8 @@
 }
 
 .slider-item01 {
-  background-image: url(./photo1.jpeg);
+  background-image: url(./video.jpg);
+  background-color:rgba(0, 0, 0, 0.8);
 }
 
 
@@ -29,6 +30,18 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+}
+.slider-item:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /*半透明のフィルターをかける*/
+}
+
 }
 
 /*矢印の設定*/
