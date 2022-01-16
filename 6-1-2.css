@@ -390,6 +390,7 @@ background-color: #b7efdf;/
 /* border-bottom: 5px solid #395049;
 color: #334842;
 }
+	
 a.btn--orange {
   color: #fff;
   background-color: #eb6100;
@@ -408,6 +409,7 @@ a.btn--shadow {
 .recruit-btn{
   margin:30px 55em 0 100px;
 }
+	
 .section-title-interview{
   font-size: 50px;
   text-align: center;
@@ -484,6 +486,7 @@ a.btn--shadow {
   display: flex;
   margin-top: 40px;
 }
+	
 #footer .navi {
   /* margin: 0; */
   padding: 0;
@@ -491,11 +494,13 @@ a.btn--shadow {
   margin: 0px auto;
     margin-left: 61em;
 }
+	
 #footer .navi li {
   display: inline-block;
   margin: 0 20px 0 0;
   padding: 0;
 }
+	
 #footer .navi li:first-child {
   margin-left: 0;
 }
