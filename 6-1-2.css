@@ -607,6 +607,62 @@ body {
   margin: 0;
   padding: 0;
 }
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+  .page-header wrapper{
+    width: 100%;
+  }
+  .container{
+    width: 100%;
+  }
+  .section01-photo{
+  	margin:3em 50em 0 15em;
+  }
+  .section01{
+  	text-align:center
+  	margin:0 auto;
+  }
+  .contents-item01{
+    float:left;
+    margin-left:1.5em;
+}
+  .section02{
+   width:100%;
+   height:45vh;
+  }
+  .box30{
+   margin:0 auto;
+   width:80%;
+   margin-bottom:30px;
+  }
+  .btn-flat-simple {
+  	margin:0 0 0 5rem;
+  	width:88%;
+  }
+  .btn-flat-simple02{
+  	margin:5px 1px
+  }
+  .section03{
+  	height:80vh;
+  }
+  .recruit-btn{
+  	margin:50px 23em;
+  }
+  .navi{
+    display:none;
+  }
+  .navi-row{
+  	margin:0 auto;
+  }
+ .primary{
+ 	height:15em
+        margin:0 auto;
+ }
+ .copyright{
+ 	display:flex;
+ }
+}
+
 
 /* .kaisai p{
   font-size: 100px;
