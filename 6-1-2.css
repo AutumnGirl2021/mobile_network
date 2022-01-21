@@ -658,8 +658,11 @@ body {
  	height:15em
         margin:0 auto;
  }
- .copyright{
- 	display:flex;
+ #footer .copyright {
+   width: 100%;
+   margin: 20px 0 0;
+   text-align: center;
+   font-size: 12px;
  }
 }
 
