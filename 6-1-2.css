@@ -3,6 +3,7 @@
 /*==================================================
 スライダーのためのcss
 ===================================*/
+
 .slider {
     position:relative;
   z-index: 1;
@@ -456,7 +457,7 @@ a.btn--shadow {
   background: #222;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 767px) {
   #footer .primary {
     padding: 20px 20px;
     background: #333;
@@ -477,7 +478,7 @@ a.btn--shadow {
   font-size: 26px;
   font-weight: bold;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 767px) {
   #footer .logo {
     font-size: 16px;
   }
@@ -490,7 +491,7 @@ a.btn--shadow {
   padding: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 767px) {
   .address {
     font-size: 12px;
   }
@@ -518,7 +519,7 @@ a.btn--shadow {
   margin-left: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 767px) {
   .navi-row {
     display: block;
     margin-top: 15px;
@@ -549,7 +550,7 @@ a.btn--shadow {
   margin-right: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 767px) {
   #footer .sns-navi {
     margin: 20px 0 0;
     padding: 0;
@@ -578,7 +579,7 @@ a.btn--shadow {
   margin-left: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 767px) {
   #footer .sitenavi {
     width: 100%;
     text-align: center;
@@ -595,7 +596,7 @@ a.btn--shadow {
   text-align:center;
   margin-left: 350px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width:767px) {
   #footer .copyright {
     width: 100%;
     margin: 20px 0 0;
@@ -608,7 +609,145 @@ body {
   margin: 0;
   padding: 0;
 }
-@media screen and (max-width: 959px) {
+@media screen and (min-widh:1500px) {
+    /* 1500px以上のディスプレイに適用 */
+  .page-header wrapper{
+    width: 100%;
+  }
+  .container{
+    width: 100%;
+  }
+  .section-title{
+   margin-bottom:5%;
+ }
+  .section01-photo{
+  	margin:0 auto;
+  	margin-left:1%;
+  	float:left;
+  }
+  .section01{
+    margin: 0 auto;
+  	text-align:center;
+  	height:93vh;
+  }
+  .contents-item01{
+      float:right;
+  }
+.btn--orange{
+  	margin:0 auto;
+  }
+  .section02{
+   width:100%;
+   height:93vh;
+  }
+  .box30{
+   margin:0 auto;
+   width:80%;
+   margin-top:5%;
+  }
+  .btn-flat-simple {
+  	margin:5%;
+  	width:88%;
+  	text-align:center;
+  }
+  .btn-flat-simple02{
+  	margin:0 auto;
+  }
+  .section03{
+  	height:150vh;
+  }
+  .recruit-btn{
+  	margin-right:43%;
+  }
+  .navi{
+    display:none;
+  }
+  .navi-row{
+  	margin:0 auto;
+  }
+ .primary{
+ 	height:15em;
+  margin:0 auto;
+ }
+#footer .copyright {
+  width: 100%;
+  margin: 20px 0 0;
+  text-align: center;
+  font-size: 12px;
+  height:5vh;
+}
+}
+@media screen and (min-width:1000px){
+  /* 1000px以上のディスプレイに適用 */
+  .page-header wrapper{
+    width: 100%;
+  }
+  .container{
+    width: 100%;
+  }
+  .section-title{
+   margin-bottom:5%;
+ }
+ .section01-photo{
+   margin:0 auto;
+   margin-left:15%;
+   float:left;
+ }
+ .section01{
+   margin: 0 auto;
+   text-align:center;
+   height:93vh;
+   max-height:100%;
+ }
+  .contents-item01{
+      float:right;
+  }
+.btn--orange{
+  	margin:0 auto;
+  }
+  .section02{
+   width:100%;
+   height:93vh;
+  }
+  .box30{
+   margin:0 auto;
+   width:80%;
+   margin-top:5%
+  }
+  .btn-flat-simple {
+  	margin:5%;
+  	width:88%;
+  	text-align:center
+  }
+  .btn-flat-simple02{
+  	margin:0 auto;
+  }
+  .section03{
+  	height:100em;
+  }
+  .recruit-btn{
+  	margin-right:45%;
+  }
+  .navi{
+    display:none;
+  }
+  .navi-row{
+  	margin:0 auto;
+  }
+ .primary{
+ 	height:15em;
+  margin:0 auto;
+ }
+}
+#footer .copyright {
+  width: 100%;
+  margin: 20px 0 0;
+  text-align: center;
+  font-size: 12px;
+  height:5vh;
+}
+}
+@media screen and (min-width: 959px) {
 	/* 959px以下に適用されるCSS（タブレット用） */
   .page-header wrapper{
     width: 100%;
