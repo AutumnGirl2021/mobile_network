@@ -627,7 +627,7 @@ body {
   }
   .section01{
     margin: 0 auto;
-  	text-align:center;
+  	/* text-align:center; */
   	height:93vh;
   }
   .contents-item01{
@@ -695,7 +695,7 @@ body {
  }
  .section01{
    margin: 0 auto;
-   text-align:center;
+   /* text-align:center; */
    height:93vh;
    max-height:100%;
  }
